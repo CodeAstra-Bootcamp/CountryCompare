@@ -1,0 +1,26 @@
+{
+  "name": "country-compare",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass --include-path css/src css/src/main.scss css/main.css",
+    "serve": "lite-server",
+    "start": "npm run sass && npm run serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodeAstra/CountryCompare.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CodeAstra/CountryCompare/issues"
+  },
+  "homepage": "https://github.com/CodeAstra/CountryCompare#readme",
+  "devDependencies": {
+    "lite-server": "^2.2.2",
+    "node-sass": "^3.10.1",
+    "nodemon": "^1.11.0"
+  }
+}
